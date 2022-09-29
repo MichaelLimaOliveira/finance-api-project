@@ -21,7 +21,7 @@ function verifyIExistAccountCPF(req, res, next) {
 
 function getBalance(statement) {
     const balance = statement.reduce((acc, next) => {
-        next.type === "credit" ? acc + next.amount: acc - next.amount;
+        next.type === "credit" ? acc + next.amount : acc - next.amount;
     }, 0); 
 
     return balance;
