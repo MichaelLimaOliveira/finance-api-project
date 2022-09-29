@@ -1,0 +1,17 @@
+{
+  "name": "finance-api-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MichaelLimaOliveira/finance-api-project.git",
+  "author": "michael <michaellima.contato@gmail.com>",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
